@@ -31,6 +31,7 @@ main, .content{
 .redes-sociais{
     width: 27%;
     float: right;
+    
 }
 .redes-sociais ul li{
     margin-left: 12px;
@@ -67,10 +68,13 @@ main, .content{
 .busca{
     text-align: center;
     width: 27%;
-    float: right;    
+    /*float: right; */ 
+    position: absolute;
+    top: -4px;
+    right: 40px;
 }
 .busca input{
-    margin-top: 7px;
+    /*margin-top: 7px;*/
     height: 35px;
     width: 190px;
     padding: 13px;
@@ -341,6 +345,7 @@ cursor: pointer;
 .tagbuscas b{
     font-size: 30px;
 }
+
 .footer-2{
     background-image: url(../img/footer2.png);
     color: #c5c5c5;
@@ -349,6 +354,8 @@ cursor: pointer;
     width: 100%;  
  
 }
+
+
 .assinatura{
     float: left;
     width: 50%;
